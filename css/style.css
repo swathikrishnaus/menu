@@ -161,6 +161,20 @@ color: #7e7878;
 .menu .menu-items{
     margin-top: 50px;
 }
+.menu-items li a{
+  cursor: pointer;
+}
+.menu-items li a {
+  color: #202020;
+  font-size: 16px;
+}
+.menu-items li a:hover, .menu-items li a.active, .menu-items li a:focus{
+  color: rgb(221 204 31);
+  font-weight: bold;
+}
+.menu-cards{
+  margin-top: 30px;
+}
 .menu a{
     text-decoration: none;
 }

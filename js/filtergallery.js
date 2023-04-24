@@ -1,5 +1,5 @@
   $(document).ready(function(){
-    $(".nav-link").click(function(){
+    $(".btn").click(function(){
       var filter = $(this).data("filter");
       if (filter == "*") {
         $(".gallery-item").show();
@@ -7,7 +7,7 @@
         $(".gallery-item").hide();
         $(filter).show();
       }
-      $(".nav-link").removeClass("active");
+      $(".btn").removeClass("active");
       $(this).addClass("active");
     });
   });

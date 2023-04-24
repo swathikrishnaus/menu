@@ -163,6 +163,7 @@ color: #7e7878;
 }
 .menu-items li a{
   cursor: pointer;
+  margin-bottom: 30px;
 }
 .menu-items li a {
   color: #202020;

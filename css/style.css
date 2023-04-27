@@ -36,6 +36,13 @@ color: #7e7878;
 }
 .nav-shadow{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  background-color: rgba(255, 255, 255, 0.771);
+}
+@media(max-width: 991px){
+  .navbar .navbar-collapse{
+    background-color: rgba(255, 255, 255, 0.771);
+    padding: 20px;
+  }
 }
 /* --------------------toggle button css start----------------------- */
 .navbar-toggler {
@@ -108,7 +115,19 @@ color: #7e7878;
 
 /* ---------------landing start---------------- */
 .landing{
-    margin-top: 100px;
+    padding-top: 100px;
+    background: url("../images/landing/C.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+    .landing button{
+      color: #151414;
+      background-color: rgb(231 209 19);
+      border: 0;
+      padding: 10px 20px;
+      border-radius: 5px;
     }
     .landing p{
         font-size: 16px;
@@ -120,7 +139,7 @@ color: #7e7878;
     }
     @media(max-width: 991px){
       .landing{
-        margin-top: 150px;
+        padding-top: 150px;
         }
     }
 /* ---------------landing end---------------- */
@@ -168,6 +187,7 @@ color: #7e7878;
 .menu-items li a {
   color: #202020;
   font-size: 16px;
+  transition: 0.3s ease;
 }
 .menu-items li a:hover, .menu-items li a.active, .menu-items li a:focus{
   color: rgb(221 204 31);

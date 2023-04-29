@@ -212,6 +212,28 @@ color: #7e7878;
 .menu a{
     text-decoration: none;
 }
+.modal img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ddc739;
+}
+.modal .modal-header{
+  background-color: #ddc739;
+}
+.modal .buy-btn{
+  background-color: #ddc739;
+  padding: 8px 15px;
+  border: 1px solid #ddc739;
+  color: #151414;
+  transition: 0.3s ease;
+}
+.modal .buy-btn:hover{
+  border: 1px solid #ddc739;
+  background-color: transparent;
+
+}
 @media(max-width: 991px){
   .menu{
     margin-top: 20px;

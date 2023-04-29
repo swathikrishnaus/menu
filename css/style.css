@@ -14,6 +14,14 @@ body{
 .para-color{
 color: #7e7878;
 }
+.btn-hover{
+ transition: 0.3s ease;
+}
+.btn-hover:hover{
+  background-color: transparent;
+  border: 1px solid rgb(231 209 19);
+  color: rgb(32, 31, 25);
+}
 /* ---------------head-color end------------- */
 
 .navbar  img{
@@ -30,9 +38,14 @@ color: #7e7878;
 }
 .navbar .nav-btn{
     background-color: rgb(231 209 19);
-    border: 0;
+    border: 1px solid rgb(231 209 19);
     padding: 10px 20px;
     border-radius: 5px;
+}
+.navbar .nav-btn:hover{
+  background-color: transparent;
+  border: 1px solid rgb(231 209 19);
+  color: rgb(32, 31, 25);
 }
 .nav-shadow{
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
@@ -116,16 +129,16 @@ color: #7e7878;
 /* ---------------landing start---------------- */
 .landing{
     padding-top: 100px;
-    background: url("../images/landing/C.jpg");
+    /* background: url("../images/landing/bg1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100vh; */
     }
     .landing button{
       color: #151414;
       background-color: rgb(231 209 19);
-      border: 0;
+      border: 1px solid rgb(231 209 19);
       padding: 10px 20px;
       border-radius: 5px;
     }
@@ -146,7 +159,7 @@ color: #7e7878;
 
 /* ---------------menu start---------------- */
 .menu{
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 50px 0;
 }
 .menu p{
